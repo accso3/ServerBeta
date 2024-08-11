@@ -1,0 +1,1 @@
+java -Xmx16000M -Xms14000M -jar smp.jar --nogui

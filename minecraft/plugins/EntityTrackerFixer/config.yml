@@ -1,0 +1,47 @@
+#  _______         __   __ __          _______                   __                _______ __                   
+# |    ___|.-----.|  |_|__|  |_.--.--.|_     _|.----.---.-.----.|  |--.-----.----.|    ___|__|.--.--.-----.----.
+# |    ___||     ||   _|  |   _|  |  |  |   |  |   _|  _  |  __||    <|  -__|   _||    ___|  ||_   _|  -__|   _|
+# |_______||__|__||____|__|____|___  |  |___|  |__| |___._|____||__|__|_____|__|  |___|   |__||__.__|_____|__|  
+#                              |_____|      
+#
+#                                                                    
+# Discord RottenBone Studio: https://discord.gg/pU5gmnQC
+# This plugin was created by: Anyelo120
+# Don't miss any new plugins at: https://www.spigotmc.org/resources/authors/ascranyelo.740614/
+settings:
+  # Español: La distancia máxima a la que las entidades deben ser rastreadas. Las entidades fuera de esta distancia serán ignoradas.
+  # English: The maximum distance at which entities should be tracked. Entities beyond this distance will be ignored.
+  maxTrackingDistance: 50
+  
+  # Español: Periodo de ejecución de la optimización en ticks. 20 ticks equivalen a 1 segundo.
+  # English: Optimization run period in ticks. 20 ticks are equivalent to 1 second.
+  optimizationPeriodTicks: 100
+  
+  # Español: Cambiar a 'false' para deshabilitar los mensajes de depuración. Útil para reducir la cantidad de registros si no se necesita depuración.
+  # English: Change to 'false' to disable debug messages. Useful for reducing log clutter if debugging is not needed.
+  debug: true
+  
+  # Español: Lista de nombres de mundos donde el plugin no realizará ninguna acción. Añade los nombres de los mundos que deseas excluir.
+  # English: List of world names where the plugin will not perform any actions. Add the names of the worlds you want to exclude.
+  world_blacklist:
+    - "world2"
+    - "world3"
+  
+  # Español: Lista de tipos de entidades que no deben ser afectadas por la optimización. Agrega o quita entidades según sea necesario.
+  # English: List of entity types that should not be affected by optimization. Add or remove entities as needed.
+  blacklist:
+    - ARMOR_STAND
+    - ENDER_DRAGON
+    - WITHER
+    - PLAYER
+    - VILLAGER
+    - ITEM_FRAME
+
+# Español: Configuración específica para el seguimiento de ciertos tipos de entidades. Define cuántas entidades de cada tipo deben ser rastreadas.
+# English: Specific configuration for tracking certain types of entities. Defines how many entities of each type should be tracked.
+tracking:
+  zombie: 70
+  skeleton: 50
+  creeper: 50
+  #wither_skeleton: 50
+  #pig: 30

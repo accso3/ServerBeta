@@ -1,0 +1,78 @@
+Settings:
+  Icon: GRASS_BLOCK
+  Type: NORMAL
+  Load: true
+  TP-On-Join: false
+  World-Inventories: false
+  Unix-Register: 1722846976
+Regions:
+  Global:
+    Type: INFINITE
+    Display-Name: '&f&lGlobal'
+    Priority: 10
+    Icon: BEDROCK
+    Announce-Enter:
+      Title: false
+      Actionbar: false
+    Block:
+      Interact: true
+      Break: true
+      Place: true
+    Container:
+      Interact: true
+    PVP: true
+    PVE: true
+    Hunger: true
+    Damage: true
+    Explosions: true
+    Item:
+      Drop: true
+      Pickup: true
+    Entity-Spawning: true
+    Enter: true
+    Create-Portal: true
+    Access:
+      Crafting-Table: true
+      Chests: true
+      Hoppers: true
+    No-Chat: false
+    No-Consumables: false
+    Disabled-Nether-Portal: false
+    Disabled-End-Portal: false
+    No-Fire-Spreading: false
+  safe:
+    POS:
+      '1': -17%76%67
+      '2': -15%76%69
+    Icon: LIGHT_BLUE_STAINED_GLASS
+    Block:
+      Interact: false
+      Break: false
+      Place: false
+    Container:
+      Interact: true
+    PVP: true
+    PVE: true
+    Hunger: false
+    Damage: false
+    Explosions: false
+    Item:
+      Drop: true
+      Pickup: true
+    Entity-Spawning: false
+    Enter: true
+    Access:
+      Crafting-Table: true
+      Chests: true
+      Hoppers: true
+    No-Chat: false
+    No-Consumables: false
+    Disabled-Nether-Portal: false
+    Disabled-End-Portal: false
+    No-Fire-Spreading: false
+    Type: CUBOID
+    Display-Name: safe
+    Priority: 100
+    Announce-Enter:
+      Title: true
+      Actionbar: true

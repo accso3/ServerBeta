@@ -1,0 +1,32 @@
+#  _______         __   __ __          _______                   __                _______ __                   
+# |    ___|.-----.|  |_|__|  |_.--.--.|_     _|.----.---.-.----.|  |--.-----.----.|    ___|__|.--.--.-----.----.
+# |    ___||     ||   _|  |   _|  |  |  |   |  |   _|  _  |  __||    <|  -__|   _||    ___|  ||_   _|  -__|   _|
+# |_______||__|__||____|__|____|___  |  |___|  |__| |___._|____||__|__|_____|__|  |___|   |__||__.__|_____|__|  
+#                              |_____|      
+#
+#  
+# Discord RottenBone Studio: https://discord.gg/pU5gmnQC
+# This plugin was created by: Anyelo120
+# Don't miss any new plugins at: https://www.spigotmc.org/resources/authors/ascranyelo.740614/
+
+# Español: EntityTrackerFixer Language Configuration
+# Este archivo te permite personalizar los mensajes que se muestran a los jugadores y en la consola.
+# Puedes utilizar colores con el formato '&a', '&c', etc.
+# Para insertar valores dinámicos en los mensajes, utiliza %s para texto, %d para números enteros, etc. 
+# Por ejemplo, en "debug_mode": "&aDebug mode is now %s.", %s será reemplazado por el estado actual del modo de depuración (ON/OFF).
+
+# English: EntityTrackerFixer language settings
+# This file allows you to customize the messages displayed to players and on the console.
+# You can use colors in the format '&a', '&c', etc.
+# To insert dynamic values ​​into messages, use %s for text, %d for integers, etc.
+# For example, in "debug_mode": "&aDebug mode is now %s.", %s will be replaced by the current state of debug mode (ON/OFF).
+
+messages:
+  no_permission: "&cYou do not have permission to run this command."
+  config_reloaded: "&aEntityTrackerFixer configuration reloaded."
+  debug_mode: "&aDebug mode is now %s."
+  command_usage: "&a=== EntityTrackerFixer ===\n&6Maximum Tracking Distance: %d\n&6Optimization Period: %d ticks\n&6Debug Mode: %s"
+  despawned_entity: "Despawned %s at [%d, %d, %d] (world: %s) because no players were nearby."
+  unrecognized_entity: "EntityType not recognized in configuration: %s"
+  new_version_available: "&e¡There is a new version available of %s! Current version: %s. New version: %s"
+  check_version_error: "&cCould not check the latest version of %s"

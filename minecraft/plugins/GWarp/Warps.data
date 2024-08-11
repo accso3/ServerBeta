@@ -1,0 +1,26 @@
+Warps:
+  safezone:
+    name: safezone
+    owner: 08b53c64-332c-32b4-8b38-984329506077
+    ownername: Lunar_VNW
+    count: true
+    loc:
+      x: -15.50941714992417
+      y: 77.0
+      z: 68.49399876673672
+      pitch: 90.0
+      yaw: 90.14978
+      world: world
+  hub:
+    name: Hub
+    owner: 08b53c64-332c-32b4-8b38-984329506077
+    ownername: Lunar_VNW
+    count: true
+    loc:
+      x: 46.46267066206127
+      y: 50.0
+      z: -34.50569813065856
+      pitch: 90.0
+      yaw: -176.9992
+      world: lobby
+    visitors: 8
