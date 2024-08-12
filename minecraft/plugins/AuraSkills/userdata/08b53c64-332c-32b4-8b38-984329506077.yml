@@ -37,10 +37,10 @@ mana: 520.0
 action_bar:
   idle: true
 ability_data:
+  auraskills/first_strike:
+    counter: 7
+  auraskills/xp_convert:
+    xp: 15.103914329147415
   auraskills/charged_shot:
     toggle_cooldown: 0
     enabled: true
-  auraskills/xp_convert:
-    xp: 15.103914329147415
-  auraskills/first_strike:
-    counter: 7
